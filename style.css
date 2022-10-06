@@ -261,4 +261,63 @@ section {
   font-size: 1.5rem;
   color: #aaa;
   padding: 1rem;
+}
+
+.pricing {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
+  gap: 1.5rem;
+}
+.pricing .information span {
+  font-size: 2rem;
+  color: #f00;
+}
+.pricing .information h3 {
+  font-size: 2rem;
+  color: #fff;
+  padding-top: 0.5rem;
+}
+.pricing .information p {
+  line-height: 2;
+  padding: 1rem 0;
+  font-size: 1.4rem;
+  color: #aaa;
+}
+.pricing .information p i {
+  padding-right: 1rem;
+  color: #f00;
+}
+.pricing .plan {
+  text-align: center;
+  padding: 2rem;
+}
+.pricing .plan.general {
+  background: linear-gradient(130deg, #111 93%, transparent 90%);
+}
+.pricing .plan h3 {
+  font-size: 2.5rem;
+  margin: 1rem 0;
+  color: #fff;
+}
+.pricing .plan .price {
+  font-size: 5rem;
+  font-weight: bolder;
+  color: #f00;
+}
+.pricing .plan .price span {
+  color: white;
+  font-size: 2rem;
+}
+.pricing .plan .list {
+  padding: 1rem 0;
+}
+.pricing .plan .list p {
+  line-height: 2;
+  padding: 1rem 0;
+  font-size: 1.4rem;
+  color: #aaa;
+}
+.pricing .plan .list p i {
+  padding-right: 1rem;
+  color: #f00;
 }/*# sourceMappingURL=style.css.map */
