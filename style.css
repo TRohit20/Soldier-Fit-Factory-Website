@@ -320,4 +320,63 @@ section {
 .pricing .plan .list p i {
   padding-right: 1rem;
   color: #f00;
+}
+
+.t {
+  color: white !important;
+}
+
+.te {
+  color: #f00;
+}
+
+.trainers .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+}
+.trainers .box-container .box {
+  height: 40rem;
+  overflow: hidden;
+  position: relative;
+}
+.trainers .box-container .box:hover .content {
+  transform: translateY(0);
+}
+.trainers .box-container .box img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.trainers .box-container .box .content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #111;
+  padding: 2rem;
+  transform: translateY(6.5rem);
+}
+.trainers .box-container .box .content span {
+  font-size: 1.5rem;
+  color: #f00;
+}
+.trainers .box-container .box .content h3 {
+  font-size: 2rem;
+  color: white;
+  padding-top: 0.5rem;
+}
+.trainers .box-container .box .content .share {
+  padding-top: 2rem;
+  margin-top: 1.5rem;
+  border-top: 0.1rem solid #aaa;
+}
+.trainers .box-container .box .content .share a {
+  font-size: 2rem;
+  color: white;
+  margin-right: 1rem;
+}
+.trainers .box-container .box .content .share a:hover {
+  color: red;
 }/*# sourceMappingURL=style.css.map */
