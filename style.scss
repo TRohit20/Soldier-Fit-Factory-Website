@@ -77,4 +77,47 @@
     display: none;
   }
 
+//   Media Queries 
+
+@media (max-width:991px){
+
+    html{
+      font-size: 55%;
+      scroll-padding: 7rem;
+    }
   
+    .header{
+      padding:0 2rem;
+    }
+  }
+
+  @media (max-width:768px){
+
+    #menu-btn{
+      display: inline-block;
+  
+      &.fa-times{
+        transform: rotate(180deg);
+      }
+    }  
+  
+    .header{
+      padding:2rem;
+  
+      .navbar{
+        position: absolute;
+        top:99%; left:0; right:0;
+        background: $black;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  
+        &.active{
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        }
+  
+        a{
+          display: block;
+          font-size: 2rem;
+        }
+      }
+    }
+}
