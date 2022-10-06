@@ -59,4 +59,11 @@ body {
 }
 .header .navbar a:hover {
   background: #f00;
+}
+
+#menu-btn {
+  font-size: 3rem;
+  color: #fff;
+  cursor: pointer;
+  display: none;
 }/*# sourceMappingURL=style.css.map */
