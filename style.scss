@@ -135,6 +135,45 @@
         background: $red;
     }
   }
+
+  .about{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8rem;
+
+    .image{
+        flex: 1 1 42rem;
+        position: relative;
+
+        &::before,
+        &::after{
+            content: '';
+            position: absolute;
+            z-index: -1;
+            background: $red;
+            height: 15rem;
+            width: 15rem;
+        }
+
+        &::before{
+            top:0;
+            left: 0;
+        }
+        &::after{
+            bottom: 0;
+            right: 0;
+        }
+
+        img{
+            width: 100%;
+            padding: 2rem;
+        }
+    }
+    .content{
+        flex: 1 1 42rem;
+    }
+  }
   
 
 //   Media Queries 

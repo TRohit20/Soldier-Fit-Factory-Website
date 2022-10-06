@@ -120,4 +120,38 @@ section {
 }
 .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background: #f00;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8rem;
+}
+.about .image {
+  flex: 1 1 42rem;
+  position: relative;
+}
+.about .image::before, .about .image::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: #f00;
+  height: 15rem;
+  width: 15rem;
+}
+.about .image::before {
+  top: 0;
+  left: 0;
+}
+.about .image::after {
+  bottom: 0;
+  right: 0;
+}
+.about .image img {
+  width: 100%;
+  padding: 2rem;
+}
+.about .content {
+  flex: 1 1 42rem;
 }/*# sourceMappingURL=style.css.map */
