@@ -31,6 +31,24 @@ body {
   background: #000;
 }
 
+section {
+  padding: 5rem 9%;
+}
+
+.btn {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 1rem 2.8rem;
+  padding-right: 3rem;
+  background: linear-gradient(130deg, #f00 93%, transparent 90%);
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.7rem;
+}
+.btn:hover {
+  transform: scale(1.1);
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -68,40 +86,28 @@ body {
   display: none;
 }
 
-@media (max-width: 991px) {
-  html {
-    font-size: 55%;
-    scroll-padding: 7rem;
-  }
-  .header {
-    padding: 0 2rem;
-  }
+.home {
+  padding: 0;
+  margin-top: 5rem;
 }
-@media (max-width: 768px) {
-  #menu-btn {
-    display: inline-block;
-  }
-  #menu-btn.fa-times {
-    transform: rotate(180deg);
-  }
-  .header {
-    padding: 2rem;
-  }
-  .header .navbar {
-    position: absolute;
-    top: 99%;
-    left: 0;
-    right: 0;
-    background: #000;
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-  }
-  .header .navbar.active {
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-  }
-  .header .navbar a {
-    display: block;
-    font-size: 2rem;
-  }
+.home .slide {
+  min-height: 70vh;
+  background-size: cover !important;
+  background-position: center !important;
+  padding: 2rem 9%;
+  display: flex;
+  align-items: center;
+}
+.home .slide .content {
+  width: 60rem;
+}
+.home .slide .content span {
+  font-size: 2rem;
+  color: #f00;
+  display: block;
+}
+.home .slide .content h3 {
+  font-size: 5rem;
+  color: #fff;
+  padding: 1rem 0;
 }/*# sourceMappingURL=style.css.map */
