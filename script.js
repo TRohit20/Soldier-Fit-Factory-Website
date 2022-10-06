@@ -15,8 +15,8 @@ var swiper = new Swiper(".home-slider", {
     spaceBetween: 20,
     effect: "fade",
     loop:true,
-    grabCursor:true,
     centeredSlides:true,
+    grabCursor:true,
     pagination: {
       el: ".swiper-pagination",
       clickable: true,

@@ -110,4 +110,14 @@ section {
   font-size: 5rem;
   color: #fff;
   padding: 1rem 0;
+}
+
+.swiper-pagination-bullet {
+  height: 2 rem;
+  width: 2rem;
+  background: #fff;
+  border-radius: 0;
+}
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: #f00;
 }/*# sourceMappingURL=style.css.map */

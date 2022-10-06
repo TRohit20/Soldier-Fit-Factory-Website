@@ -126,6 +126,15 @@
     }
   }
 
+  .swiper-pagination-bullet {
+    height: 2 rem;
+    width: 2rem;
+    background: $white;
+    border-radius: 0;
+    &.swiper-pagination-bullet-active{
+        background: $red;
+    }
+  }
   
 
 //   Media Queries 
