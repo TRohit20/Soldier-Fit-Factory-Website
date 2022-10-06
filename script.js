@@ -3,5 +3,22 @@ let navbar = document.querySelector('.header .navbar');
 
 menu.onclick = () => {
     menu.classList.toggle('fa-times');
-    menu.classList.toggle('active');
-}
+    navbar.classList.toggle('active');
+};
+
+window.onscroll = () => {
+    menu.classList.remove('fa-times');
+    navbar.classList.remove('active');
+};
+
+var swiper = new Swiper(".home-slider", {
+    spaceBetween: 20,
+    effect: "fade",
+    loop:true,
+    grabCursor:true,
+    centeredSlides:true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
