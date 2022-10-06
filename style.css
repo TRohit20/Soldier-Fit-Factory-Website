@@ -154,4 +154,36 @@ section {
 }
 .about .content {
   flex: 1 1 42rem;
+}
+.about .content span {
+  font-size: 2rem;
+  color: #f00;
+}
+.about .content .title {
+  font-size: 4rem;
+  color: #fff;
+  margin-top: 0.5rem;
+}
+.about .content p {
+  font-size: 1.5rem;
+  color: #aaa;
+  padding: 1rem 0;
+  line-height: 2;
+}
+.about .content .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+.about .content .box-container .box {
+  flex: 1 1 20rem;
+}
+.about .content .box-container .box h3 {
+  font-size: 2rem;
+  color: #fff;
+}
+.about .content .box-container .box h3 i {
+  padding-right: 1.5rem;
+  color: #f00;
 }/*# sourceMappingURL=style.css.map */
