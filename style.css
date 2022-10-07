@@ -404,4 +404,32 @@ section {
   font-size: 1.5rem;
   color: #aaa;
   line-height: 2;
+}
+
+.review {
+  display: flex;
+  align-items: center;
+  flex-wrap: flex;
+  gap: 2rem;
+}
+.review .information {
+  flex: 1 1 35rem;
+}
+.review .information span {
+  font-size: 2rem;
+  color: #f00;
+}
+.review .information h3 {
+  font-size: 3rem;
+  color: #fff;
+  padding-top: 1rem;
+}
+.review .information p {
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #aaa;
+  padding: 1rem 0;
+}
+.review .review-slider {
+  flex: 1 1 60rem;
 }/*# sourceMappingURL=style.css.map */

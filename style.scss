@@ -457,6 +457,40 @@
     line-height: 2;
   }
 }
+
+.review{
+  display: flex;
+  align-items: center;
+  flex-wrap: flex;
+  gap: 2rem;
+
+  .information{
+    flex:1 1 35rem;
+
+    span{
+      font-size: 2rem;
+      color: $red;
+    }
+    h3{
+      font-size: 3rem;
+      color: $white;
+      padding-top: 1rem;
+    }
+
+    p{
+      font-size: 1.5rem;
+      line-height: 2;
+      color: $light-white;
+      padding: 1rem 0;
+    }
+  }
+
+  .review-slider{
+    flex:1 1 60rem;
+
+  }
+}
+
 // //   Media Queries 
 
 
