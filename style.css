@@ -513,4 +513,71 @@ section {
   color: #aaa;
   line-height: 2;
   padding: 1rem 0;
+}
+
+.footer .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 1.5rem;
+}
+.footer .box-container .box h3 {
+  font-size: 2.2rem;
+  color: #fff;
+  padding: 1rem 0;
+}
+.footer .box-container .box .links {
+  font-size: 1.5rem;
+  display: block;
+  color: #aaa;
+  padding: 1rem 0;
+}
+.footer .box-container .box .links:hover {
+  color: #f00;
+}
+.footer .box-container .box p {
+  font-size: 1.5rem;
+  color: #aaa;
+  padding: 1rem 0;
+}
+.footer .box-container .box p i {
+  padding-right: 0.5rem;
+  color: #f00;
+}
+.footer .box-container .box .share {
+  padding: 1rem 0;
+}
+.footer .box-container .box .share a {
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4.5rem;
+  font-size: 1.7rem;
+  color: #fff;
+  background: #111;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+  text-align: center;
+}
+.footer .box-container .box .share a:hover {
+  background: #f00;
+}
+.footer .box-container .box form .email {
+  margin-bottom: 1rem;
+  width: 100%;
+  background: #111;
+  padding: 1.2rem;
+  font-size: 1.5rem;
+  color: #fff;
+  text-transform: none;
+}
+
+.credit {
+  font-size: 2rem;
+  text-align: center;
+  padding: 2rem;
+  color: #fff;
+  background: #111;
+  line-height: 1.5;
+}
+.credit span {
+  color: #f00;
 }/*# sourceMappingURL=style.css.map */
