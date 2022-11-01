@@ -30,9 +30,12 @@ JavaScript
 
 # Contribution
 
-Feel free to contribute in any way you wish to. Steps to follow to contribute:
+Anything to correct or contribute? 
+--> Raise an issue mentioning the changes you'd like or to make
 
-Fork the repository
-Make changes or contributions in a new branch
-And open a pull request
+--> Fork the repository or clone it to your local computer
+
+--> Contribute by making changes as you wish by creating a new branch
+
+--> Open a pull request to merge the new branch of your repo with the main repo here NOTE: Mention the Issue number the pull request will be closing.
   
